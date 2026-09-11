@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+*.txt
+results/
+wandb/
+data/rollouts_Qwen_Qwen3.5-9B_no_china_20k.jsonl
+data/rollouts_Qwen_Qwen3.5-9B.jsonl
+
+# Large data files
+probe_scores/token_scores.jsonl
+data/

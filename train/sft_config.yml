@@ -1,0 +1,21 @@
+model: allenai/OLMo-2-1124-7B
+data: rollouts_Qwen_Qwen3.5-9B_no_china_20k.jsonl
+
+lr: 2.0e-4
+epochs: 1
+lora_rank: 32
+lora_alpha: 32
+micro_batch: 1
+eff_batch: 128
+max_seq_len: 4096
+warmup_ratio: 0.03
+lr_final_frac: 0.1
+weight_decay: 0.0
+grad_clip: 1.0
+max_examples: null
+seed: 42
+tag: sft_baseline
+
+save_every_steps: 50
+dummy_run: false
+dummy_steps: 10
