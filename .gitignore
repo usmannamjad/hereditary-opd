@@ -10,3 +10,4 @@ data/rollouts_Qwen_Qwen3.5-9B.jsonl
 # Large data files
 probe_scores/token_scores.jsonl
 data/
+data-2.zip
